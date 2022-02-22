@@ -18,4 +18,9 @@ public class Point {
                 y == point.y;
     }
 
+    @Override
+    public int hashCode() {
+        return this.x + this.y;
+    }
+
 }
